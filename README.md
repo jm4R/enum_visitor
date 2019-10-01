@@ -70,9 +70,9 @@ public:
 int main()
 {
     auto method = ReadMethod::none;
-	// modify values
+    // modify values
 
-	auto p = Processor{};
-	mj::visit(p, method); //just call visit instead of writing switch
+    auto p = Processor{};
+    mj::visit(p, method); //just call visit instead of writing switch
 }
 ```
